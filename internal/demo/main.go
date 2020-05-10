@@ -9,8 +9,8 @@ import (
 
 func main() {
 	rootCmd := &cobra.Command{
-		Use:   "test",
-		Short: "A test application",
+		Use:   "demo",
+		Short: "A demo application",
 	}
 	rootCmd.AddCommand(&cobra.Command{
 		Use:   "test",
